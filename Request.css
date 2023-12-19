@@ -1,0 +1,102 @@
+*{
+    padding: zero;
+    margin: zero;
+    
+}
+
+button {
+    background-color: blue;
+    border-radius: 5rem;
+    color: white;
+    padding: .4rem;
+    cursor: pointer;
+    border: none;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between; 
+  padding: 2rem; 
+}
+ nav .pharm {
+    color: red;
+ }
+nav .NA1 {
+    display: flex;
+    gap: 15px;
+}
+
+.NA1 div {
+    padding: .5rem;
+}
+
+main{
+    background-image: linear-gradient(to right, rgb(136, 37, 194), red,red,red,red, red, rgb(206, 21, 206));
+    padding: 2rem;
+}
+main div {
+    text-align: center;
+    color: white;
+}
+
+main div input {
+    padding: .2rem;
+    border-radius: 1rem;
+    border: none;
+    color: rgb(22, 88, 230);
+    padding: .5rem;
+}
+
+.sec {
+    display: grid;
+    margin-top: 3rem;
+}
+
+
+.sec .sec1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10PX;
+}
+.sec1 div {
+    border: 2px solid rgba(228, 221, 221, 0.774);
+    text-align: left;
+    padding: 2rem;
+}
+
+section .sec2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10PX;
+}
+
+section .sec2{
+    display: grid;
+    grid-template-columns:auto auto;
+    gap: 10PX;
+}
+
+section .sec2 div {
+    border: 2px solid rgba(228, 221, 221, 0.774);
+    text-align: left;
+    padding: 2rem;
+    background-color: rgba(240, 230, 230, 0.199);
+}
+
+
+.sec3 {
+    background-image: linear-gradient(to right, rgb(136, 37, 194), red,red,red,red, red, rgb(206, 21, 206));
+    padding: 2rem;
+    margin-top: 5rem;
+    text-align: left;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 8rem;
+}  
+
+
+.sec4 {
+    text-align: center;
+    border-top-style:groove ;
+}
